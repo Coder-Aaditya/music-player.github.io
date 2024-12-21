@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #FF5F6D, #FFC371, #6A82FB, #FC5C7D, #F7B7A3, #D4A5A5, #392F5A);
+            background: linear-gradient(135deg, #6A0DAD, #FF1493, #7B68EE, #FF69B4, #9400D3, #EE82EE, #8B008B);
             background-size: 400% 400%;
             animation: gradientFlow 10s ease infinite;
             display: flex;
@@ -21,6 +21,7 @@
             align-items: center;
             height: 100vh;
             padding: 20px;
+            color: white;
         }
 
         @keyframes gradientFlow {
@@ -37,10 +38,10 @@
 
         .audio-player {
             text-align: center;
-            background: rgba(255, 255, 255, 0.7);
+            background: rgba(128, 0, 128, 0.8);
             padding: 30px;
             border-radius: 20px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
             width: 100%;
             max-width: 500px;
             transition: transform 0.3s ease-in-out;
@@ -49,35 +50,35 @@
 
         h1 {
             font-size: 28px;
-            color: #333;
+            color: #FF1493;
             margin-bottom: 20px;
             text-transform: uppercase;
             letter-spacing: 2px;
-            font-weight: 600;
+            font-weight: 700;
         }
 
         input[type="file"] {
             padding: 12px;
-            border: 2px solid #FFC371;
+            border: 2px solid #FF1493;
             border-radius: 5px;
-            background-color: #FF5F6D;
+            background-color: #6A0DAD;
             color: white;
             cursor: pointer;
             width: 100%;
             font-size: 16px;
             margin-bottom: 20px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
             transition: all 0.3s ease;
         }
 
         input[type="file"]:hover {
-            background-color: #FFC371;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+            background-color: #FF1493;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
         }
 
         button {
             padding: 12px 20px;
-            background-color: #6A82FB;
+            background-color: #9400D3;
             color: white;
             border: none;
             border-radius: 5px;
@@ -88,7 +89,7 @@
         }
 
         button:hover {
-            background-color: #FC5C7D;
+            background-color: #FF69B4;
             transform: translateY(-3px);
         }
 
@@ -97,9 +98,9 @@
             max-height: 200px;
             overflow-y: scroll;
             padding: 10px;
-            background-color: #f4f4f4;
+            background-color: rgba(255, 105, 180, 0.2);
             border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
         }
 
         #fileList div {
@@ -108,11 +109,12 @@
             border-radius: 8px;
             margin: 5px 0;
             transition: background-color 0.3s ease;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            color: #FFF;
         }
 
         #fileList div:hover {
-            background-color: #FF5F6D;
+            background-color: #9400D3;
             color: white;
             transform: scale(1.03);
         }
@@ -121,7 +123,7 @@
             margin-top: 20px;
             width: 100%;
             border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
         }
 
         .controls {
@@ -133,7 +135,7 @@
 
         .controls button {
             padding: 12px 18px;
-            background-color: #FF5F6D;
+            background-color: #6A0DAD;
             color: white;
             border: none;
             border-radius: 5px;
@@ -143,7 +145,7 @@
         }
 
         .controls button:hover {
-            background-color: #FFC371;
+            background-color: #FF69B4;
             transform: translateY(-3px);
         }
 
